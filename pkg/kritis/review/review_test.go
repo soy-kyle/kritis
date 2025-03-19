@@ -21,16 +21,16 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/crd/securitypolicy"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/policy"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
-	"github.com/grafeas/kritis/pkg/kritis/util"
-	"github.com/grafeas/kritis/pkg/kritis/violation"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/crd/securitypolicy"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/policy"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
+	"github.com/soy-kyle/kritis/pkg/kritis/violation"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

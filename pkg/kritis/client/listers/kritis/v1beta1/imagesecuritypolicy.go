@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
+	v1beta1 "github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

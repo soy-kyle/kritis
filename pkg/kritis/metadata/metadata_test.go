@@ -22,7 +22,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/grafeas/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/attestation"
 	attestationpb "google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/attestation"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/common"

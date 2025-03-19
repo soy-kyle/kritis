@@ -11,7 +11,7 @@ info:
   version: 0.1.0
 externalDocs:
   description: Checkout the source code
-  url: https://github.com/grafeas/kritis/cmd/kritis/signer
+  url: https://github.com/soy-kyle/kritis/cmd/kritis/signer
 servers:
   - url: /
 security:

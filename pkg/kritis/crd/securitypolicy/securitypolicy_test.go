@@ -21,10 +21,10 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/policy"
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/policy"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 )
 
 func Test_ValidISP(t *testing.T) {

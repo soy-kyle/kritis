@@ -19,7 +19,7 @@ The Signer generates Attestations using a private key. Before creating any Attes
    ```
    
    ### Raw PKIX / JWT
-   For PKIX and JWT, the signer is constructed by passing in the ASCII-armored private key and its SignatureAlgorithm (see [list of supported SignatureAlgorithms](https://github.com/grafeas/kritis/blob/master/pkg/attestlib/signature_algorithm.go#L24)), as well as the ID of the corresponding public key:
+   For PKIX and JWT, the signer is constructed by passing in the ASCII-armored private key and its SignatureAlgorithm (see [list of supported SignatureAlgorithms](https://github.com/soy-kyle/kritis/blob/master/pkg/attestlib/signature_algorithm.go#L24)), as well as the ID of the corresponding public key:
    
    #### PKIX
    ```
@@ -86,7 +86,7 @@ The Verifier holds a set of PublicKeys. When given an Attestation, the Verifier 
    ```
    
    ### Raw PKIX / JWT
-   A PKIX or JWT PublicKey can be created by passing in the raw key material, a key ID, and the key’s SignatureAlgorithm (see [list of supported SignatureAlgorithms](https://github.com/grafeas/kritis/blob/master/pkg/attestlib/signature_algorithm.go#L24)). Note that if the key ID is left as an empty string, a key ID will be generated based on the DER of the key material.
+   A PKIX or JWT PublicKey can be created by passing in the raw key material, a key ID, and the key’s SignatureAlgorithm (see [list of supported SignatureAlgorithms](https://github.com/soy-kyle/kritis/blob/master/pkg/attestlib/signature_algorithm.go#L24)). Note that if the key ID is left as an empty string, a key ID will be generated based on the DER of the key material.
    #### PKIX
    ```
    publicKey := `-----BEGIN PUBLIC KEY BLOCK-----

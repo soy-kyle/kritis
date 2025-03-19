@@ -71,7 +71,7 @@ type verifier struct {
 // `publicKeySet` contains a list of PublicKeys that the Verifier will use to
 // try to verify an Attestation.
 func NewVerifier(image string, publicKeySet []PublicKey) (Verifier, error) {
-	// TODO(https://github.com/grafeas/kritis/issues/503): Move this check to
+	// TODO(https://github.com/soy-kyle/kritis/issues/503): Move this check to
 	// the call where the user supplies the image name.
 	digest, err := name.NewDigest(image, name.StrictValidation)
 	if err != nil {
@@ -127,7 +127,7 @@ func (v *verifier) VerifyAttestation(att *Attestation) error {
 		return err
 	}
 
-	// TODO(https://github.com/grafeas/kritis/issues/503): Determine whose
+	// TODO(https://github.com/soy-kyle/kritis/issues/503): Determine whose
 	// responsibility it is to check the payload. If cryptolib is responsible
 	// determine an API for checking the payload.
 	// Extract the payload into an AuthenticatedAttestation, whose contents we

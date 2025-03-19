@@ -25,7 +25,7 @@ NOTE: The steps described in this section will install Grafeas and Kritis charts
    standalone folder:
 
     ```shell
-    cd ${GOPATH}/src/github.com/grafeas/kritis/docs/standalone
+    cd ${GOPATH}/src/github.com/soy-kyle/kritis/docs/standalone
     ```
 
 1. Set up GCP project where Kubernetes Engine API is enabled. You'll need to create a new project by following the prompts at [Google Cloud Console: New Project](https://console.cloud.google.com/projectcreate).

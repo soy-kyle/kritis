@@ -20,15 +20,15 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/crd/authority"
-	"github.com/grafeas/kritis/pkg/kritis/crd/securitypolicy"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/metadata/grafeas"
-	"github.com/grafeas/kritis/pkg/kritis/policy"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
-	"github.com/grafeas/kritis/pkg/kritis/util"
-	"github.com/grafeas/kritis/pkg/kritis/violation"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/crd/authority"
+	"github.com/soy-kyle/kritis/pkg/kritis/crd/securitypolicy"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata/grafeas"
+	"github.com/soy-kyle/kritis/pkg/kritis/policy"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
+	"github.com/soy-kyle/kritis/pkg/kritis/violation"
 	v1 "k8s.io/api/core/v1"
 )
 
@@ -262,7 +262,7 @@ func (r Reviewer) handleViolations(image string, pod *v1.Pod, violations []polic
 		if v.Type() == policy.UnqualifiedImageViolation {
 			errMsg = fmt.Sprintf(`%s is not a fully qualified image.
 			  You can run 'kubectl plugin resolve-tags' to qualify all images with a digest.
-			  Instructions for installing the plugin can be found at https://github.com/grafeas/kritis/blob/master/cmd/kritis/kubectl/plugins/resolve`, image)
+			  Instructions for installing the plugin can be found at https://github.com/soy-kyle/kritis/blob/master/cmd/kritis/kubectl/plugins/resolve`, image)
 		}
 	}
 	if err := r.config.Strategy.HandleViolation(image, pod, violations); err != nil {

@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
 	"golang.org/x/crypto/openpgp"
 	"golang.org/x/crypto/openpgp/armor"
 	"gopkg.in/d4l3k/messagediff.v1"

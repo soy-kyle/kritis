@@ -22,11 +22,11 @@ import (
 	"net/url"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/attestlib"
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/attestation"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/attestation"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
 	"github.com/pkg/errors"
 )
 

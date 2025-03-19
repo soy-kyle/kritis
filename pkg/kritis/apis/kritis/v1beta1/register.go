@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis"
 )
 
 // SchemeGroupVersion is group version used to register these objects

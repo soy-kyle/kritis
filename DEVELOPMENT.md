@@ -22,7 +22,7 @@ When you're ready, you can [create a PR](#creating-a-pr)!
 
 ## Checkout your fork
 
-The Go tools require that you clone the repository to the `src/github.com/grafeas/kritis` directory
+The Go tools require that you clone the repository to the `src/github.com/soy-kyle/kritis` directory
 in your [`GOPATH`](https://github.com/golang/go/wiki/SettingGOPATH).
 
 To check out this repository:
@@ -32,8 +32,8 @@ To check out this repository:
 2. Clone it to your machine:
 
   ```shell
-  mkdir -p ${GOPATH}/src/github.com/grafeas
-  cd ${GOPATH}/src/github.com/grafeas
+  mkdir -p ${GOPATH}/src/github.com/soy-kyle
+  cd ${GOPATH}/src/github.com/soy-kyle
   git clone git@github.com:${YOUR_GITHUB_USERNAME}/kritis.git
   cd kritis
   git remote add upstream git@github.com:grafeas/kritis.git

@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned"
-	kritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1"
-	fakekritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1/fake"
+	clientset "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned"
+	kritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1"
+	fakekritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

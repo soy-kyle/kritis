@@ -16,10 +16,10 @@
 
 set -e -o pipefail
 
-KRITIS_DIR="$GOPATH/src/github.com/grafeas/kritis"
+KRITIS_DIR="$GOPATH/src/github.com/soy-kyle/kritis"
 
 if [ -z "$VALIDATE_UPSTREAM" ]; then
-	VALIDATE_REPO='https://github.com/grafeas/kritis.git'
+	VALIDATE_REPO='https://github.com/soy-kyle/kritis.git'
 	VALIDATE_BRANCH='master'
 
 	VALIDATE_HEAD="$(git rev-parse --verify HEAD)"

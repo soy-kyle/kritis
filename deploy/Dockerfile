@@ -15,12 +15,12 @@
 # Builds the static Go image for Admission validation controller.
 
 FROM golang:1.23
-WORKDIR /go/src/github.com/grafeas/kritis
+WORKDIR /go/src/github.com/soy-kyle/kritis
 COPY . .
 RUN make out/kritis-server
 
 FROM gcr.io/distroless/base:latest
-COPY --from=0 /go/src/github.com/grafeas/kritis/out/kritis-server /kritis/kritis-server
+COPY --from=0 /go/src/github.com/soy-kyle/kritis/out/kritis-server /kritis/kritis-server
 ENV HOME /root
 ENV USER /root
 ENV PATH /usr/local/bin:/kritis

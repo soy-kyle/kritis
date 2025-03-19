@@ -26,7 +26,7 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/kritis/kubectl/plugins/resolve"
+	"github.com/soy-kyle/kritis/pkg/kritis/kubectl/plugins/resolve"
 	"github.com/spf13/cobra"
 )
 

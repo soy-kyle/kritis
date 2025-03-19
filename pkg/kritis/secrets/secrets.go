@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	kubernetesutil "github.com/grafeas/kritis/pkg/kritis/kubernetes"
+	kubernetesutil "github.com/soy-kyle/kritis/pkg/kritis/kubernetes"
 	v1 "k8s.io/api/core/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

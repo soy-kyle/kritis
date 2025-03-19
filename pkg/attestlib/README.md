@@ -6,10 +6,10 @@ The Attestation Library provides an interface for creating and verifying Attesta
 
 ### Attestation
 
-An [Attestation](https://github.com/grafeas/kritis/blob/master/pkg/attestlib/attestation.go#L25) is a signed statement about a container image in a known format. A container is allowed to be deployed to a Kubernetes cluster if it presents Attestations that satisfy the cluster's policy. An Attestation contains a payload and a signature generated over the payload with a trusted entity’s private key. It also contains the ID of the public key which can verify the Attestation’s signature.
+An [Attestation](https://github.com/soy-kyle/kritis/blob/master/pkg/attestlib/attestation.go#L25) is a signed statement about a container image in a known format. A container is allowed to be deployed to a Kubernetes cluster if it presents Attestations that satisfy the cluster's policy. An Attestation contains a payload and a signature generated over the payload with a trusted entity’s private key. It also contains the ID of the public key which can verify the Attestation’s signature.
 
 ### Public Key
-A [PublicKey](https://github.com/grafeas/kritis/blob/master/pkg/attestlib/public_key.go#L29) is the definitive trust anchor used to verify that an Attestation’s signature is valid. Unlike Attestations, which are considered untrustworthy until verified, PublicKeys are assumed to contain trustworthy information. Consequently, this information should be provided directly by the trusted party.
+A [PublicKey](https://github.com/soy-kyle/kritis/blob/master/pkg/attestlib/public_key.go#L29) is the definitive trust anchor used to verify that an Attestation’s signature is valid. Unlike Attestations, which are considered untrustworthy until verified, PublicKeys are assumed to contain trustworthy information. Consequently, this information should be provided directly by the trusted party.
 
 A PublicKey contains the raw public key material and an ID. It also contains a KeyType, one of {`Pgp`, `Pkix`, or `Jwt`}, indicating how the trusted entity stores data within the Attestation. It also contains a SignatureAlgorithm, indicating the cryptographic algorithm, padding algorithm, and hash function used on the payload to create the signature in the Attestation.
 

@@ -13,7 +13,7 @@
 # limitations under the License.
 
 FROM golang:1.23
-WORKDIR /go/src/github.com/grafeas/kritis
+WORKDIR /go/src/github.com/soy-kyle/kritis
 COPY . .
 ARG stage
 RUN make ${stage} 
@@ -26,7 +26,7 @@ ENV KUBECTL_VERSION v1.16.4
 RUN curl -Lo /usr/local/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl  && \
     chmod +x /usr/local/bin/kubectl
 
-COPY --from=0 /go/src/github.com/grafeas/kritis/out/${stage}  /${stage}
+COPY --from=0 /go/src/github.com/soy-kyle/kritis/out/${stage}  /${stage}
 
 # Copy artifacts to the image.
-COPY --from=0 /go/src/github.com/grafeas/kritis/artifacts /artifacts
+COPY --from=0 /go/src/github.com/soy-kyle/kritis/artifacts /artifacts

@@ -19,7 +19,7 @@ package e2etest
 import (
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
 )
 
 const unsecureRsa2048PrivateKey = `-----BEGIN PRIVATE KEY-----
