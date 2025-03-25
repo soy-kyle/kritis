@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go v0.57.0
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.4.2
+	github.com/golang/protobuf v1.5.0
 	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.2.1
 	github.com/pkg/errors v0.9.1
@@ -64,7 +64,7 @@ require (
 	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/time v0.0.0-20200416051211-89c76fbcd5d1 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
-	google.golang.org/protobuf v1.24.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/klog v1.0.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20200410163147-594e756bea31 // indirect
