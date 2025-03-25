@@ -27,7 +27,7 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-helm/helm-${HELM_VERSION}
 #     helm init --client-only --home ${HELM_HOME} && \
 #     helm plugin install https://github.com/nouney/helm-gcs --version 0.2.0 --home ${HELM_HOME}
 
-WORKDIR /go/src/github.com/grafeas/kritis
+WORKDIR /go/src/github.com/soy-kyle/kritis
 
 COPY . .
 

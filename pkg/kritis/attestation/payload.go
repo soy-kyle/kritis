@@ -17,7 +17,7 @@ limitations under the License.
 package attestation
 
 import (
-	"github.com/grafeas/kritis/pkg/kritis/container"
+	"github.com/soy-kyle/kritis/pkg/kritis/container"
 )
 
 // AtomicContainerPayload creates an attestation payload

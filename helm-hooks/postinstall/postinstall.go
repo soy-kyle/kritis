@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafeas/kritis/pkg/kritis/install"
-	kubernetesutil "github.com/grafeas/kritis/pkg/kritis/kubernetes"
+	"github.com/soy-kyle/kritis/pkg/kritis/install"
+	kubernetesutil "github.com/soy-kyle/kritis/pkg/kritis/kubernetes"
 	"github.com/sirupsen/logrus"
 )
 

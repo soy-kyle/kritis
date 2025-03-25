@@ -32,7 +32,7 @@ GCP_CLUSTER ?= kritis-integration-test
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-GITHUB_ORG := github.com/grafeas
+GITHUB_ORG := github.com/soy-kyle
 GITHUB_PROJECT := kritis
 REPOPATH ?= $(GITHUB_ORG)/$(GITHUB_PROJECT)
 RESOLVE_TAGS_PROJECT := resolve-tags
@@ -81,8 +81,8 @@ install-plugin: $BUILD_DIR)/$(RESOLVE_TAGS_PROJECT)
 	cp cmd/kritis/kubectl/plugins/resolve/plugin.yaml $(RESOLVE_TAGS_KUBECTL_DIR)
 
 GO_LDFLAGS := -extldflags "-static"
-GO_LDFLAGS += -X github.com/grafeas/kritis/cmd/kritis/version.Commit=$(COMMIT)
-GO_LDFLAGS += -X github.com/grafeas/kritis/cmd/kritis/version.Version=$(VERSION)
+GO_LDFLAGS += -X github.com/soy-kyle/kritis/cmd/kritis/version.Commit=$(COMMIT)
+GO_LDFLAGS += -X github.com/soy-kyle/kritis/cmd/kritis/version.Version=$(VERSION)
 GO_LDFLAGS += -w -s # Drop debugging symbols.
 
 REGISTRY?=gcr.io/kritis-project

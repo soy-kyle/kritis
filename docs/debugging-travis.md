@@ -1,6 +1,6 @@
 ### Debugging Travis Build
 
-Kritis uses Travis to run CI unit tests [here](https://app.travis-ci.com/github/grafeas/kritis).
+Kritis uses Travis to run CI unit tests [here](https://app.travis-ci.com/github/soy-kyle/kritis).
 
 You can use `Docker` to create similar container environment for local testing.
 
@@ -35,8 +35,8 @@ $ su - travis
 ```shell
 $ PR=YOUR_PR_NUM
 $
-$ git clone --depth=50 https://github.com/grafeas/kritis.git $GOPATH/src/github.com/grafeas/kritis
-$ cd $GOPATH/src/github.com/grafeas/kritis
+$ git clone --depth=50 https://github.com/soy-kyle/kritis.git $GOPATH/src/github.com/soy-kyle/kritis
+$ cd $GOPATH/src/github.com/soy-kyle/kritis
 $ git fetch origin +refs/pull/$PR/merge
 $ git checkout -qf FETCH_HEAD
 $ 

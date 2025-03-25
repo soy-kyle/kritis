@@ -53,7 +53,7 @@ COPY --from=golang:1.12 /usr/local/go /usr/local/go
 ENV PATH /usr/local/go/bin:/go/bin:${PATH}
 ENV GOPATH /go/
 
-WORKDIR /go/src/github.com/grafeas/kritis
+WORKDIR /go/src/github.com/soy-kyle/kritis
 
 COPY . .
 

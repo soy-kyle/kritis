@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/go:debian'
   args: ['build', './cmd/kritis/signer']
-  env: ['PROJECT_ROOT=github.com/grafeas/kritis']
+  env: ['PROJECT_ROOT=github.com/soy-kyle/kritis']
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: /bin/bash
   args:

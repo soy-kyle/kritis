@@ -21,7 +21,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/docker/distribution/reference"
-	"github.com/grafeas/kritis/pkg/kritis/crd/vulnzsigningpolicy"
+	"github.com/soy-kyle/kritis/pkg/kritis/crd/vulnzsigningpolicy"
 	"k8s.io/apimachinery/pkg/util/yaml"
 	"os"
 	"strconv"
@@ -29,11 +29,11 @@ import (
 
 	"context"
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/attestlib"
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/metadata/containeranalysis"
-	"github.com/grafeas/kritis/pkg/kritis/signer"
-	"github.com/grafeas/kritis/pkg/kritis/util"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata/containeranalysis"
+	"github.com/soy-kyle/kritis/pkg/kritis/signer"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
 	"strings"
 )
 

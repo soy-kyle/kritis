@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	integration_util "github.com/grafeas/kritis/pkg/kritis/integration_util"
+	integration_util "github.com/soy-kyle/kritis/pkg/kritis/integration_util"
 	v1 "k8s.io/api/core/v1"
 )
 

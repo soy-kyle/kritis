@@ -21,9 +21,9 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/kritis/kubectl/plugins/resolve"
-	kubernetesutil "github.com/grafeas/kritis/pkg/kritis/kubernetes"
-	"github.com/grafeas/kritis/pkg/kritis/util"
+	"github.com/soy-kyle/kritis/pkg/kritis/kubectl/plugins/resolve"
+	kubernetesutil "github.com/soy-kyle/kritis/pkg/kritis/kubernetes"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

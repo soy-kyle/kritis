@@ -24,7 +24,7 @@ import (
 	"hash"
 
 	kms "cloud.google.com/go/kms/apiv1"
-	"github.com/grafeas/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 )
 

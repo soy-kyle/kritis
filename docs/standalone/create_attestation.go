@@ -24,8 +24,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
-	"github.com/grafeas/kritis/pkg/kritis/util"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/attestation"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/grafeas"
 	"google.golang.org/grpc"

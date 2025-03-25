@@ -22,8 +22,8 @@ import (
 	"context"
 	"time"
 
-	v1beta1 "github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	scheme "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned/scheme"
+	v1beta1 "github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	scheme "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

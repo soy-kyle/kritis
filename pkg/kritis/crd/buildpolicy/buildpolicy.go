@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	clientset "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	clientset "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/rest"
 )

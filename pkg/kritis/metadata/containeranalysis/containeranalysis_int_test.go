@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	kritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
-	"github.com/grafeas/kritis/pkg/kritis/util"
+	kritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/grafeas"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

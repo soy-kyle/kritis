@@ -23,7 +23,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/grafeas/kritis/pkg/kritis/constants"
+	"github.com/soy-kyle/kritis/pkg/kritis/constants"
 )
 
 // SplitGloballyAllowedImages returns:

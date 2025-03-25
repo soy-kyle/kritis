@@ -93,8 +93,8 @@
         ```
 
         This `AttestationAuthority` will create
-        [Attestation](https://github.com/grafeas/grafeas/blob/master/proto/v1beta1/attestation.proto)
-        [Note](https://github.com/grafeas/grafeas/blob/master/docs/grafeas_concepts.md)
+        [Attestation](https://github.com/soy-kyle/grafeas/blob/master/proto/v1beta1/attestation.proto)
+        [Note](https://github.com/soy-kyle/grafeas/blob/master/docs/grafeas_concepts.md)
         in project specified in `$PROJECT` variable and attest valid images using the secret `my-attestor` which we created.
 
 1. Copy a vulnerable image.

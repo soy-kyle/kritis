@@ -19,7 +19,7 @@ package main
 import (
 	"os"
 
-	"github.com/grafeas/kritis/cmd/kritis/kubectl/plugins/resolve/cmd"
+	"github.com/soy-kyle/kritis/cmd/kritis/kubectl/plugins/resolve/cmd"
 )
 
 func main() {

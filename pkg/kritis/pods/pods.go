@@ -20,7 +20,7 @@ import (
 	"context"
 	"encoding/json"
 
-	kubernetesutil "github.com/grafeas/kritis/pkg/kritis/kubernetes"
+	kubernetesutil "github.com/soy-kyle/kritis/pkg/kritis/kubernetes"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"

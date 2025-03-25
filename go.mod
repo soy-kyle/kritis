@@ -1,4 +1,4 @@
-module github.com/grafeas/kritis
+module github.com/soy-kyle/kritis
 
 go 1.14
 
