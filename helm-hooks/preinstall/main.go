@@ -19,8 +19,8 @@ package main
 import (
 	"flag"
 
-	"github.com/grafeas/kritis/cmd/kritis/version"
-	"github.com/grafeas/kritis/pkg/kritis/install"
+	"github.com/soy-kyle/kritis/cmd/kritis/version"
+	"github.com/soy-kyle/kritis/pkg/kritis/install"
 	"github.com/sirupsen/logrus"
 )
 

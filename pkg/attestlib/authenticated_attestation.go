@@ -44,7 +44,7 @@ type image struct {
 	Digest string `json:"docker-manifest-digest"`
 }
 
-// TODO(https://github.com/grafeas/kritis/issues/503): Decide whether
+// TODO(https://github.com/soy-kyle/kritis/issues/503): Decide whether
 // AuthenticatedAttestation is a useful abstraction.
 // AuthenticatedAttestation contains data that is extracted from an Attestation
 // only after its signature has been verified. The contents of an Attestation

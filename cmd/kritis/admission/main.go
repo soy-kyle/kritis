@@ -26,13 +26,13 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/cmd/kritis/version"
-	"github.com/grafeas/kritis/pkg/kritis/admission"
-	"github.com/grafeas/kritis/pkg/kritis/constants"
-	"github.com/grafeas/kritis/pkg/kritis/crd/kritisconfig"
-	"github.com/grafeas/kritis/pkg/kritis/cron"
-	kubernetesutil "github.com/grafeas/kritis/pkg/kritis/kubernetes"
-	"github.com/grafeas/kritis/pkg/kritis/metadata/grafeas"
+	"github.com/soy-kyle/kritis/cmd/kritis/version"
+	"github.com/soy-kyle/kritis/pkg/kritis/admission"
+	"github.com/soy-kyle/kritis/pkg/kritis/constants"
+	"github.com/soy-kyle/kritis/pkg/kritis/crd/kritisconfig"
+	"github.com/soy-kyle/kritis/pkg/kritis/cron"
+	kubernetesutil "github.com/soy-kyle/kritis/pkg/kritis/kubernetes"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata/grafeas"
 	"github.com/pkg/errors"
 	"k8s.io/client-go/kubernetes"
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
@@ -93,7 +93,7 @@ func main() {
 		return
 	} else {
 		kritisConf := kritisConfigs[0]
-		// TODO(https://github.com/grafeas/kritis/issues/304): Use CRD validation instead
+		// TODO(https://github.com/soy-kyle/kritis/issues/304): Use CRD validation instead
 		if kritisConf.Spec.MetadataBackend != "" {
 			config.Metadata = kritisConf.Spec.MetadataBackend
 		}

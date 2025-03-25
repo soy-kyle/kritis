@@ -19,8 +19,8 @@ package containeranalysis
 import (
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 )
 
 func Test_isRegistryGCR(t *testing.T) {

@@ -26,16 +26,16 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/discovery"
 
 	"google.golang.org/grpc/credentials"
 
-	kritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/constants"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
-	"github.com/grafeas/kritis/pkg/kritis/util"
+	kritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/constants"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/util"
 	"golang.org/x/net/context"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/attestation"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/grafeas"

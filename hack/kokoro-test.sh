@@ -23,11 +23,11 @@ set -euf -x
 source "${KOKORO_GFILE_DIR}/common.sh"
 
 # Get everything into GOPATH
-sudo mkdir -p "${GOPATH}/src/github.com/grafeas/kritis/"
+sudo mkdir -p "${GOPATH}/src/github.com/soy-kyle/kritis/"
 CWD=`pwd`
-sudo cp -ar "${CWD}/github/kritis/." "${GOPATH}/src/github.com/grafeas/kritis"
+sudo cp -ar "${CWD}/github/kritis/." "${GOPATH}/src/github.com/soy-kyle/kritis"
 
-pushd "${GOPATH}/src/github.com/grafeas/kritis"
+pushd "${GOPATH}/src/github.com/soy-kyle/kritis"
 
 echo "Check format"
 ./hack/check-fmt.sh

@@ -29,9 +29,9 @@ import (
 	"google.golang.org/grpc/credentials"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	kritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	kritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/grafeas"
 	"google.golang.org/grpc"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

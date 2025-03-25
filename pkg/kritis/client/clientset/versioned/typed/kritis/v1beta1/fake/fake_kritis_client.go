@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1beta1 "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1"
+	v1beta1 "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

@@ -18,7 +18,7 @@ package util
 import (
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 )
 
 func Test_SplitGloballyAllowedImages(t *testing.T) {

@@ -19,9 +19,9 @@ import (
 	"fmt"
 
 	"github.com/golang/glog"
-	"github.com/grafeas/kritis/pkg/kritis/constants"
-	"github.com/grafeas/kritis/pkg/kritis/pods"
-	"github.com/grafeas/kritis/pkg/kritis/policy"
+	"github.com/soy-kyle/kritis/pkg/kritis/constants"
+	"github.com/soy-kyle/kritis/pkg/kritis/pods"
+	"github.com/soy-kyle/kritis/pkg/kritis/policy"
 	v1 "k8s.io/api/core/v1"
 )
 

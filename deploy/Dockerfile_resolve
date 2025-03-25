@@ -16,6 +16,6 @@
 
 # Dockerfile used to build a build step that builds resolve-tags in CI.
 FROM golang:1.12
-RUN mkdir -p /go/src/github.com/grafeas/
-RUN ln -s /workspace /go/src/github.com/grafeas/kritis
-WORKDIR /go/src/github.com/grafeas/kritis
+RUN mkdir -p /go/src/github.com/soy-kyle/
+RUN ln -s /workspace /go/src/github.com/soy-kyle/kritis
+WORKDIR /go/src/github.com/soy-kyle/kritis

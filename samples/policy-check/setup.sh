@@ -18,7 +18,7 @@ environment () {
   echo "Setting up the environment..."
   export DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
   export TOPDIR="$( cd "$( dirname "${BASH_SOURCE[0]}")/../.." >/dev/null 2>&1 && pwd )"
-  export GODIR=$( echo "${GOPATH//:/$'\n'}" | head -1)/src/github.com/grafeas/kritis
+  export GODIR=$( echo "${GOPATH//:/$'\n'}" | head -1)/src/github.com/soy-kyle/kritis
   
   # When we build the signer-image below, the script needs this tree to
   # live in a proper $GOPATH.  We'll build a link tree to serve

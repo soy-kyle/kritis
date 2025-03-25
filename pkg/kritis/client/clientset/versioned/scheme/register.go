@@ -19,7 +19,7 @@ limitations under the License.
 package scheme
 
 import (
-	kritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
+	kritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

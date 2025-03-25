@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	kritisv1beta1 "github.com/grafeas/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1"
+	kritisv1beta1 "github.com/soy-kyle/kritis/pkg/kritis/client/clientset/versioned/typed/kritis/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

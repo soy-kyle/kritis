@@ -21,10 +21,10 @@ again.
 For a small update (examples: fixing a typo, updating a dead link), just create a PR and have it reviewed.
 
 For a larger update (examples: documenting a new feature, rewriting an entire page for better comprehension),
-file a [documentation request issue](https://github.com/grafeas/kritis/issues/new?template=doc_request.md),
+file a [documentation request issue](https://github.com/soy-kyle/kritis/issues/new?template=doc_request.md),
 and as you create PRs, make sure to associate them to this issue.
 
 ## Requesting an Update
 
-Please file a [documentation request issue](https://github.com/grafeas/kritis/issues/new?template=doc_request.md)
+Please file a [documentation request issue](https://github.com/soy-kyle/kritis/issues/new?template=doc_request.md)
 describing your request.

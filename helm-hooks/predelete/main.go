@@ -19,7 +19,7 @@ package main
 import (
 	"flag"
 
-	"github.com/grafeas/kritis/pkg/kritis/install"
+	"github.com/soy-kyle/kritis/pkg/kritis/install"
 )
 
 var (

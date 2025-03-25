@@ -24,16 +24,16 @@ import (
 
 	"golang.org/x/crypto/openpgp"
 
-	"github.com/grafeas/kritis/pkg/attestlib"
-	"github.com/grafeas/kritis/pkg/kritis/attestation"
+	"github.com/soy-kyle/kritis/pkg/attestlib"
+	"github.com/soy-kyle/kritis/pkg/kritis/attestation"
 	"golang.org/x/crypto/openpgp/armor"
 	"golang.org/x/crypto/openpgp/packet"
 	"golang.org/x/crypto/openpgp/s2k"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/constants"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
-	"github.com/grafeas/kritis/pkg/kritis/secrets"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/constants"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/secrets"
 	"google.golang.org/genproto/googleapis/devtools/containeranalysis/v1beta1/grafeas"
 )
 

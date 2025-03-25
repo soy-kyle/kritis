@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 
 	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/grafeas/kritis/pkg/kritis/constants"
+	"github.com/soy-kyle/kritis/pkg/kritis/constants"
 )
 
 // for testing

@@ -19,8 +19,8 @@ package testutil
 import (
 	"fmt"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
-	"github.com/grafeas/kritis/pkg/kritis/metadata"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/metadata"
 	v1 "k8s.io/api/core/v1"
 )
 

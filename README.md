@@ -4,18 +4,18 @@
 [![BuildStatus Widget]][BuildStatus Result]
 [![GoReport Widget]][GoReport Status]
 
-[GoDoc]: https://godoc.org/github.com/grafeas/kritis
-[GoDoc Widget]: https://godoc.org/github.com/grafeas/kritis?status.svg
+[GoDoc]: https://godoc.org/github.com/soy-kyle/kritis
+[GoDoc Widget]: https://godoc.org/github.com/soy-kyle/kritis?status.svg
 
-[BuildStatus Widget]: https://app.travis-ci.com/github/grafeas/kritis
+[BuildStatus Widget]: https://app.travis-ci.com/github/soy-kyle/kritis
 
-[GoReport Status]: https://goreportcard.com/report/github.com/grafeas/kritis
-[GoReport Widget]: https://goreportcard.com/badge/github.com/grafeas/kritis
+[GoReport Status]: https://goreportcard.com/report/github.com/soy-kyle/kritis
+[GoReport Widget]: https://goreportcard.com/badge/github.com/soy-kyle/kritis
 
 
 ![Kritis logo](logo/logo-128.png)
 
-Kritis (“judge” in Greek), is an open-source solution for securing your software supply chain for Kubernetes applications. Kritis enforces deploy-time security policies using the [Google Cloud Container Analysis API](https://cloud.google.com/container-analysis/api/reference/rest/), and in a subsequent release, [Grafeas](https://github.com/grafeas/grafeas).
+Kritis (“judge” in Greek), is an open-source solution for securing your software supply chain for Kubernetes applications. Kritis enforces deploy-time security policies using the [Google Cloud Container Analysis API](https://cloud.google.com/container-analysis/api/reference/rest/), and in a subsequent release, [Grafeas](https://github.com/soy-kyle/grafeas).
 
 Here is an example Kritis policy, to prevent the deployment of Pod with a critical vulnerability unless it has been allowlisted:
 
@@ -30,7 +30,7 @@ packageVulnerabilityPolicy:
 ```
 
 In addition to the enforcement this project also contains *signers* that can be
-used to create [Grafeas](https://github.com/grafeas/grafeas) Attestation
+used to create [Grafeas](https://github.com/soy-kyle/grafeas) Attestation
 Occurrences to be used in other enforcement systems like [Binary
 Authorization](https://cloud.google.com/binary-authorization/).  (TODO#571: add doc and fix link)
 For details see upcoming doc [Kritis Signer](docs/signer.md).

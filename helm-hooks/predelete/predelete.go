@@ -20,7 +20,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/grafeas/kritis/pkg/kritis/install"
+	"github.com/soy-kyle/kritis/pkg/kritis/install"
 	"github.com/sirupsen/logrus"
 )
 

@@ -19,7 +19,7 @@ package admission
 import (
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 	appsv1 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 )

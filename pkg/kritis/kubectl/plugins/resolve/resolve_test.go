@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 	yaml "gopkg.in/yaml.v2"
 )
 

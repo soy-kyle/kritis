@@ -19,7 +19,7 @@ package buildpolicy
 import (
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/apis/kritis/v1beta1"
+	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
 )
 
 func Test_ValidateBuildPolicy(t *testing.T) {

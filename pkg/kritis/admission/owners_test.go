@@ -19,7 +19,7 @@ package admission
 import (
 	"testing"
 
-	"github.com/grafeas/kritis/pkg/kritis/testutil"
+	"github.com/soy-kyle/kritis/pkg/kritis/testutil"
 )
 
 func Test_imagesAreValid(t *testing.T) {
