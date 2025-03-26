@@ -15,7 +15,7 @@
 # Builds the static Go image for Admission validation controller.
 
 # Dockerfile used to build a build step that builds resolve-tags in CI.
-FROM golang:1.23
+FROM golang:1.22
 RUN mkdir -p /go/src/github.com/soy-kyle/
 RUN ln -s /workspace /go/src/github.com/soy-kyle/kritis
 WORKDIR /go/src/github.com/soy-kyle/kritis

@@ -14,7 +14,7 @@
 
 # Builds the static Go image for Admission validation controller.
 
-FROM golang:1.23
+FROM golang:1.22
 WORKDIR /go/src/github.com/soy-kyle/kritis
 COPY . .
 RUN make out/kritis-server

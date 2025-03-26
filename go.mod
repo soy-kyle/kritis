@@ -1,6 +1,6 @@
 module github.com/soy-kyle/kritis
 
-go 1.23
+go 1.22
 
 require (
 	cloud.google.com/go v0.57.0
