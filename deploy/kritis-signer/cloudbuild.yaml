@@ -1,6 +1,6 @@
 steps:
 - id: "build signer binary"
-  name: 'gcr.io/cloud-builders/go:debian'
+  name: 'gcr.io/cloud-builders/go:debian-1.22'
   args: ['build', '-o', 'out/signer', './cmd/kritis/signer']
   env: ['PROJECT_ROOT=github.com/soy-kyle/kritis']
 - id: 'build signer image'

@@ -1,5 +1,5 @@
 steps:
-- name: 'gcr.io/cloud-builders/go:debian'
+- name: 'gcr.io/cloud-builders/go:debian-1.22'
   args: ['build', './cmd/kritis/signer']
   env: ['PROJECT_ROOT=github.com/soy-kyle/kritis']
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
