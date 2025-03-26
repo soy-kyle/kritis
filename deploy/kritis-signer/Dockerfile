@@ -14,7 +14,8 @@
 
 # Builds the static Go image for Admission validation controller.
 
-FROM gcr.io/google-appengine/debian10:latest
+FROM gcr.io/distroless/static-debian12
+# FROM marketplace.gcr.io/google/debian12
 COPY out/signer /kritis/signer
 ENV HOME /root
 ENV USER /root
