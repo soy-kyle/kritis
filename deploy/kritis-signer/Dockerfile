@@ -15,7 +15,8 @@
 # Builds the static Go image for Admission validation controller.
 
 
-FROM gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+# FROM gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+FROM alpine:latest
 # FROM gcr.io/distroless/static-debian12 # too much change required
 # FROM marketplace.gcr.io/google/debian12
 COPY out/signer /kritis/signer
