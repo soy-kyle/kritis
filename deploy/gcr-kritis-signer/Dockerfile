@@ -15,8 +15,6 @@
 # Builds the container image for gcr signer
 
 FROM gcr.io/google.com/cloudsdktool/cloud-sdk:slim
-# FROM gcr.io/distroless/static-debian12
-# FROM gcr.io/google-appengine/debian:12-slim
 COPY out/gcr-signer /kritis/gcr-signer
 ENV HOME /root
 ENV USER /root

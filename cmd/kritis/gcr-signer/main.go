@@ -17,24 +17,26 @@ limitations under the License.
 package main
 
 import (
-	ca "cloud.google.com/go/containeranalysis/apiv1beta1"
 	"flag"
 	"fmt"
-	"github.com/docker/distribution/reference"
-	"github.com/soy-kyle/kritis/pkg/kritis/crd/vulnzsigningpolicy"
-	"k8s.io/apimachinery/pkg/util/yaml"
 	"os"
 	"strconv"
 	"time"
 
+	ca "cloud.google.com/go/containeranalysis/apiv1beta1"
+	"github.com/distribution/reference"
+	"github.com/soy-kyle/kritis/pkg/kritis/crd/vulnzsigningpolicy"
+	"k8s.io/apimachinery/pkg/util/yaml"
+
 	"context"
+	"strings"
+
 	"github.com/golang/glog"
 	"github.com/soy-kyle/kritis/pkg/attestlib"
 	"github.com/soy-kyle/kritis/pkg/kritis/apis/kritis/v1beta1"
 	"github.com/soy-kyle/kritis/pkg/kritis/metadata/containeranalysis"
 	"github.com/soy-kyle/kritis/pkg/kritis/signer"
 	"github.com/soy-kyle/kritis/pkg/kritis/util"
-	"strings"
 )
 
 var (
