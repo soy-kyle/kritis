@@ -3,13 +3,13 @@ module github.com/soy-kyle/kritis
 go 1.22
 
 require (
-	github.com/docker/distribution v2.8.3+incompatible
+	github.com/docker/distribution v2.8.3+incompatible // indirect
 	github.com/golang/glog v1.1.0
 	github.com/golang/protobuf v1.5.3
 	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.2.1
 	github.com/pkg/errors v0.9.1
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.3
 	github.com/spf13/cobra v1.1.1
 	golang.org/x/crypto v0.31.0
 	golang.org/x/net v0.25.0
@@ -26,6 +26,7 @@ require (
 require (
 	cloud.google.com/go/containeranalysis v0.9.0
 	cloud.google.com/go/kms v1.10.1
+	github.com/distribution/reference v0.6.0
 )
 
 require (
@@ -40,7 +41,6 @@ require (
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/d4l3k/messagediff v1.2.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/cli v20.10.9+incompatible // indirect
 	github.com/docker/docker v25.0.6+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.3 // indirect
